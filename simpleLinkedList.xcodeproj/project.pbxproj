@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F6767AD31D9ED113006D615A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6767AD21D9ED113006D615A /* main.cpp */; };
 		F6767ADB1D9ED23C006D615A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F6767ADA1D9ED23C006D615A /* README.md */; };
+		F6767ADF1D9ED65C006D615A /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6767ADD1D9ED65C006D615A /* node.cpp */; };
+		F6767AE21D9EDC0F006D615A /* simpleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6767AE01D9EDC0F006D615A /* simpleList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		F6767AD21D9ED113006D615A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6767ADA1D9ED23C006D615A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6767ADC1D9ED24D006D615A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6767ADD1D9ED65C006D615A /* node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		F6767ADE1D9ED65C006D615A /* node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = node.hpp; sourceTree = "<group>"; };
+		F6767AE01D9EDC0F006D615A /* simpleList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simpleList.cpp; sourceTree = "<group>"; };
+		F6767AE11D9EDC0F006D615A /* simpleList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = simpleList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				F6767AD21D9ED113006D615A /* main.cpp */,
+				F6767ADD1D9ED65C006D615A /* node.cpp */,
+				F6767ADE1D9ED65C006D615A /* node.hpp */,
+				F6767AE01D9EDC0F006D615A /* simpleList.cpp */,
+				F6767AE11D9EDC0F006D615A /* simpleList.hpp */,
 			);
 			path = simpleLinkedList;
 			sourceTree = "<group>";
@@ -133,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6767ADB1D9ED23C006D615A /* README.md in Sources */,
+				F6767AE21D9EDC0F006D615A /* simpleList.cpp in Sources */,
 				F6767AD31D9ED113006D615A /* main.cpp in Sources */,
+				F6767ADF1D9ED65C006D615A /* node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

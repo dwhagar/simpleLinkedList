@@ -12,12 +12,13 @@
  https://github.com/dwhagar/simpleLinkedList
  
  Read the README.md file for more information.
+ 
+ Class Definitions for the simpleList class.
+ 
+ Purpose:
+ This class is defined to be a linked list using the node class.
  */
 
-#include <iostream>
+#include "node.hpp"
+#include "simpleList.hpp"
 
-int main(int argc, const char * argv[]) {
-    
-    
-    return 0;
-}
