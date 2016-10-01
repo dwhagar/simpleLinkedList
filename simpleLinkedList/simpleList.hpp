@@ -31,7 +31,7 @@ namespace std {
     private:
         node<dataType> *head;
         node<dataType> *tail;
-        node<dataType> *current;
+        node<dataType> *currentPtr;
         unsigned long listSize;
     public:
         simpleList();
@@ -46,6 +46,7 @@ namespace std {
         void remove();
         void clear();
         unsigned long size();
+        node<dataType> *current();
     };
 }
 
