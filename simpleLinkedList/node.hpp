@@ -22,12 +22,10 @@
 #ifndef node_hpp
 #define node_hpp
 
-#include "simpleList.hpp"
-
 namespace std {
     template <class dataType>
     class node {
-        friend simpleList;
+        template <class listType> friend class simpleList;
     private:
         node *prevPtr;
         node *nextPtr;

@@ -25,9 +25,27 @@
 #include "node.hpp"
 
 namespace std {
+    using namespace std;
+    template <class dataType>
     class simpleList {
     private:
+        node<dataType> *head;
+        node<dataType> *tail;
+        node<dataType> *current;
+        unsigned long listSize;
     public:
+        simpleList();
+        ~simpleList();
+        void append(dataType newData);
+        void insert(dataType newData);
+        void forward(unsigned long distance);
+        void backwward(unsigned long distance);
+        void toHead();
+        void toTail();
+        node<dataType> *find(dataType searchData);
+        void remove();
+        void clear();
+        unsigned long size();
     };
 }
 
