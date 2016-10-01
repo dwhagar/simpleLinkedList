@@ -10,7 +10,10 @@
 
 #include <string>
 #include "textFile.hpp"
+#include "node.hpp"
+#include "node.cpp"
 #include "simpleList.hpp"
+#include "simpleList.cpp"
 
 using namespace std;
 

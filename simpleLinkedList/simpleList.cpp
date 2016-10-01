@@ -19,8 +19,12 @@
  This class is defined to be a linked list using the node class.
  */
 
+#ifndef simpleList_cpp
+#define simpleList_cpp
+
 #include <iostream>
 #include "node.hpp"
+#include "node.cpp"
 #include "simpleList.hpp"
 
 using namespace std;
@@ -213,3 +217,5 @@ template <class dataType> node<dataType> *simpleList<dataType>::current()
 {
     return currentPtr;
 }
+
+#endif /* simpleList_cpp */

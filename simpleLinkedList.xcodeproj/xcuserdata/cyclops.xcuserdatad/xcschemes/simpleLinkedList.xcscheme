@@ -61,6 +61,12 @@
             ReferencedContainer = "container:simpleLinkedList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/cyclops/XCode\ Projects/simpleLinkedList/simpleLinkedList/data.txt"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

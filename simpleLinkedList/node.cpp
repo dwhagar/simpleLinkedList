@@ -23,6 +23,9 @@
 
 using namespace std;
 
+#ifndef node_cpp
+#define node_cpp
+
 /*
  Default Constructor
  
@@ -44,6 +47,12 @@ template <class dataType> node<dataType>::node(node *prv, node *nxt)
 {
     prevPtr = prv;
     nextPtr = nxt;
+}
+
+// Destructor
+template <class dataType> node<dataType>::~node()
+{
+    // Nothing to do here right now.
 }
 
 /*
@@ -76,3 +85,5 @@ template <class dataType> void node<dataType>::data(dataType newData)
 {
     container = newData;
 }
+
+#endif /* node_cpp */
