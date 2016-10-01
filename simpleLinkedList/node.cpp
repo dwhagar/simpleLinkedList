@@ -79,7 +79,8 @@ template <class dataType> dataType node<dataType>::data()
 }
 
 /*
- Stores new data in the node, replacing the old data.
+ Stores new data in the node, replacing the old data.  This is overloaded
+ to provide simpler function calls.
  */
 template <class dataType> void node<dataType>::data(dataType newData)
 {
